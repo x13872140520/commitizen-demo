@@ -4,6 +4,7 @@ module.exports = {
     { value: 'feat', name: 'feat:     新增功能' },
     { value: 'fix', name: 'fix:      修复 bug' },
     { value: 'docs', name: 'docs:     文档变更' },
+    { value: 'add', name: 'add:     添加功能' },
     {
       value: 'style',
       name: 'style:    代码格式（不影响功能，例如空格、分号等格式修正）'
@@ -60,7 +61,7 @@ module.exports = {
 
   // 交互提示信息
   messages: {
-    type: '确保本次提交遵循：盛阳前端代码规范！\n选择你要提交的类型：',
+    type: '确保本次提交遵循：前端代码规范！\n选择你要提交的类型：',
     scope: '\n选择一个 scope（可选）：',
     // 选择 scope: custom 时会出下面的提示
     customScope: '请输入自定义的 scope：',
