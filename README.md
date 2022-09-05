@@ -4,3 +4,4 @@ commit message格式规范
 header的格式如下:
 <>内必填，()可填
 <type>(<scope>)<subject>
+body的格式:
