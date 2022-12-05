@@ -13,7 +13,7 @@
 
   export default {
     setup() {
-      const msg = ref('Hello world')
+      const msg = ref('Hello world this is vue3.0')
 
       const c = '1'
       const d = '111'
